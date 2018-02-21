@@ -10,5 +10,5 @@ MainAppModule、MainAppComponent功能與CarModule、CarComponent相似，只差
 
 ## 結果 ##
 在MainApp(Application)的onCreate中創建AppComponent後  
-MainActivity跟MainApp要AppComponent並使用AppComponent.inject將資料注入  
+MainActivity跟MainApp要AppComponent並使用AppComponent.inject將資料(Car.class)注入  
 Log會顯示創建的class  
